@@ -65,7 +65,7 @@ flowchart LR
   API --> Police[Police.uk API]
   API --> Postcode[Postcodes.io API]
   API -->|JSON reports| Visitor
-  Visitor -->|tile requests| Tiles[CARTO / OpenStreetMap]
+  Visitor -->|tile requests| Tiles[OpenStreetMap]
 ```
 
 ## Documentation
@@ -93,3 +93,4 @@ flowchart LR
 Designed and maintained by [Nimesh Rawanage](https://github.com/NimeshRawanage). Third-party component notices are preserved in [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md). Dependencies retain their respective licences. Police data is supplied under the Open Government Licence v3.0; map and postcode attribution is described in the data documentation.
 
 No general reuse licence is granted for the project-specific code. Contact the maintainer before reusing it beyond rights supplied by the repository host or applicable law.
+

@@ -26,10 +26,11 @@ Postcode queries pass through the application server to Postcodes.io. Their serv
 
 ## Basemap
 
-Map imagery is requested directly from CARTO's dark basemap service. The map preserves visible [OpenStreetMap attribution](https://www.openstreetmap.org/copyright) and [CARTO attribution](https://carto.com/attributions). Tile providers can observe the visitor's IP address and requested tiles. Review the provider's terms and capacity before operating a high-traffic deployment.
+Map imagery is requested directly from OpenStreetMap's standard tile service. The map preserves visible [OpenStreetMap attribution](https://www.openstreetmap.org/copyright). Tile providers can observe the visitor's IP address and requested tiles. Review the provider's terms and capacity before operating a high-traffic deployment.
 
 ## Responsible presentation
 
 Keep reporting dates, approximate-location notes and coverage limitations visible. Avoid relabelling report counts as danger, safety rankings or predictions. Empty responses should remain distinct from unavailable services, and neither establishes the absence of crime.
 
 Police.uk documents limited British Transport Police reports for Scotland, which do not represent general Scottish crime coverage. Crime Atlas does not offer Scotland as a supported exploration area; map clicks there may still return sparse transport-police records.
+
